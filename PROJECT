@@ -1,0 +1,16 @@
+domain: my.domain
+layout:
+- go.kubebuilder.io/v3
+projectName: proxy-controller
+repo: github.com/weblazy/proxy-controller
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: my.domain
+  group: weblazy
+  kind: Proxy
+  path: github.com/weblazy/proxy-controller/api/v1
+  version: v1
+version: "3"

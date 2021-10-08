@@ -1,0 +1,7 @@
+apiVersion: weblazy.my.domain/v1
+kind: Proxy
+metadata:
+  name: proxy-sample
+spec:
+  # Add fields here
+  foo: bar
